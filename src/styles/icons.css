@@ -1,0 +1,24 @@
+.social-links a{
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 230ms;
+    border-radius: 100%;
+}
+
+.social-links a > i{
+    transition: 230ms;
+}
+
+.social-links a:hover{
+    background-color: rgb(17, 17, 17);
+    border-radius: 0;
+}
+
+.social-links a:hover > i{
+    color: white;
+}
